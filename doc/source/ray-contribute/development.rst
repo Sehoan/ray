@@ -139,7 +139,7 @@ To build Ray on Ubuntu, run the following commands:
   nvm use 14
 
 .. note::
-  The `install-bazel.sh` script installs `bazelisk` for building Ray. 
+  The `install-bazel.sh` script installs `bazelisk` for building Ray.
   If you prefer to use `bazel`, only version `6.5.0` is currently supported.
 
 For RHELv8 (Redhat EL 8.0-64 Minimal), run the following commands:
@@ -194,7 +194,7 @@ After that, you can now move back to the top level Ray directory:
 
 .. code-block:: shell
 
-  cd ../..
+  cd ../../../..
 
 
 Now let's build Ray for Python. Make sure you activate any Python virtual (or conda) environment you could be using as described above.
